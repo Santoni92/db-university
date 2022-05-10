@@ -1,4 +1,4 @@
-1. Selezionare tutti gli studenti nati nel 1990 (160)
+1. Selezionare tutti gli studenti nati nel 1990 (160)		Nota:i commenti in SQL gli aggiungo con /**/
 Soluzione    SELECT `name`,`surname`,`date_of_birth`
 	     FROM `students`
 	     WHERE `date_of_birth` >= '1990-01-01'
