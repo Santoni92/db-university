@@ -2,13 +2,13 @@
 Soluzione    SELECT `name`,`surname`,`date_of_birth`
 	     FROM `students`
 	     WHERE `date_of_birth` >= '1990-01-01'
-	     AND  `date_of_birth` <= 'a990-12-31';
+	     AND  `date_of_birth` <= '1990-12-31';
 
 /*Per verificare scrivere -->  
 SELECT COUNT(`date_of_birth`)
  FROM `students`
  WHERE `date_of_birth` >= '1990-01-01'
- AND  `date_of_birth` <= 'a990-12-31';
+ AND  `date_of_birth` <= '1990-12-31';
 */
 
 
