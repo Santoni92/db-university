@@ -1,0 +1,26 @@
+SOLUZIONE ESERCIZI QUERY CON 'GROUP BY'
+
+
+1. Contare quanti iscritti ci sono stati ogni anno
+Soluzione
+		SELECT  COUNT(`id`)	/*`enrolment_date`*/ 
+		FROM `students`
+		GROUP BY `enrolment_date`;
+
+2. Contare gli insegnanti che hanno l'ufficio nello stesso edificio
+Soluzione
+		SELECT COUNT(`id`)
+		FROM `teachers`
+		GROUP BY `office_address`;
+
+3. Calcolare la media dei voti di ogni appello d'esame
+Soluzione
+		SELECT AVG(`vote`)
+		FROM `exam_student`
+		group by `exam_id`;
+
+4. Contare quanti corsi di laurea ci sono per ogni dipartimento
+Soluzione
+		SELECT COUNT(`id`)
+		FROM `courses`
+		GROUP BY `degree_id`;
